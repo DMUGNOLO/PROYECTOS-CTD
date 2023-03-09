@@ -1,0 +1,203 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Flex Body*/
+
+body{
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+}
+
+/*Header*/
+
+header{
+    position: relative;
+    width: 1024px;
+    height: 100px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+.nombre-logo{
+    position: relative;
+    margin-left: 10px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+h3{
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    Font-size: 16px;
+    margin-left: 5px;
+}
+
+/*Main*/
+
+main{
+    width: 1024px;
+    height: 450px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E5E5E5;
+}
+
+/*Caja 1 - Izquierda*/
+
+.Caja1{
+    position: relative;
+    width: 490px;
+    height: 350px;
+    background-image: url('/img/delivery.png');
+    background-size: 490px;
+    border-radius: 5px;
+}
+
+h1{
+    position: absolute;
+    font-style: normal;
+    font-size: 24px;
+    color: #FC200C;
+}
+
+.envio{
+    top: 15px;
+    left: 12px;
+}
+
+span{
+    color: white;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+/*Caja 2 - Derecha*/
+
+.Caja2{
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 490px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Caja2-header{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 490px;
+    height: 80px;
+}
+
+.podio-title{
+    position: absolute;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.Caja2-body{
+    width: 490px;
+    height: 270px;
+    display: flex;
+}
+
+.top5{
+    width: 245px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-title{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+h4{
+    margin-bottom: 15px;
+    margin-left: 28px;
+}
+
+.Caja2-img{
+    width: 245px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Footer*/
+
+footer{
+    width: 1024px;
+    height: 120px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-left: 20px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.logo-container-footer{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.logo-footer{
+    margin-left: 15px;
+}
+
+.nombre-logo-footer{
+    position: relative;
+    margin-left: 10px;
+}
+
